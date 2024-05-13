@@ -96,8 +96,8 @@ body {
   margin-top: 20px;
 }
 
-.order-button:hover,
-.order-button:focus {
+.topline-button:hover:hover,
+.topline-button:focus {
   background-color: #404bbf;
 }
 
