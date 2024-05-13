@@ -235,7 +235,11 @@ body {
   background-color: #2e2f42;
 }
 
-.logo-link {
+.wrapper {
+  padding: 20px;
+}
+
+.logo-second-part {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -246,13 +250,13 @@ body {
   text-decoration: none;
 }
 
-.logo-span {
+.logo-second-part .studio-span {
   color: #f4f4fd;
 }
 
 .footer-paragraph {
   line-height: 1.5;
-  color: var(--footer-text-color, #f4f4fd);
+  color: var(--text-color, #f4f4fd);
   letter-spacing: 0.02em;
 }
 
