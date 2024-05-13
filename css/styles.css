@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 /*Header*/
@@ -128,43 +128,37 @@ body {
 }
 
 .advantage-title {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .advantage-description {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /*Our Team*/
 
 .team-section {
-  background-color: #f9f9f9;
-  padding: 20px;
+  background-color: #f4f4fd;
 }
 
 .section-title {
-  font-size: 32px;
-  margin-bottom: 20px;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
-}
-
-.team-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-item {
-  text-align: center;
-  flex: 1 1 264px;
-  max-width: 264px;
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -173,7 +167,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 10px 0 5px;
 }
 
 .team-role {
@@ -181,16 +174,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
 }
 
 /*Our Portfolio*/
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
 
 .portfolio-section {
   padding: 20px;
@@ -247,7 +233,6 @@ body {
 
 .page-footer {
   background-color: #2e2f42;
-  padding: 20px;
 }
 
 .logo-link {
@@ -269,13 +254,5 @@ body {
   line-height: 1.5;
   color: var(--footer-text-color, #f4f4fd);
   letter-spacing: 0.02em;
-  margin-top: 10px;
 }
 
-/* Інші стилі */
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
