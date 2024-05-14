@@ -23,11 +23,9 @@ body {
 
 .header-list {
   list-style: none;
-  margin: 0;
 }
 
 .header-list li {
-  margin-right: 20px;
 }
 
 .nav-link {
@@ -50,11 +48,9 @@ body {
 
 .contact-list {
   list-style: none;
-  margin: 0;
 }
 
 .contact-list li {
-  margin-bottom: 5px;
 }
 
 .contact-link {
@@ -108,22 +104,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 20px;
 }
 
 .portfolio-list {
   list-style: none;
-  margin: 0;
 }
 
 .portfolio-item {
   text-align: center;
-  flex: 1 1 360px;
-  max-width: 360px;
 }
 
 .portfolio-card-img {
-  width: 100%;
 }
 
 .portfolio-title {
@@ -132,7 +123,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 10px 0 5px;
 }
 
 .portfolio-category {
@@ -140,7 +130,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 0;
 }
 
 /*Footer*/
